@@ -1,11 +1,33 @@
 import React from "react";
-const data = (props) => {
+import studentData from "./../data/studentData"
+
+const Details = () =>{
+    const data = studentData.map((item) =>{
+        return(
+            <tr>
+                <td>{item.name}</td>
+                <td>{item.age}</td>
+                <td>{item.isStudent ? "Yes" : "No"}</td>
+            </tr>
+        )
+    })
+
     return (
-        <div className="studentData">
-            <p>Name : {props.name}</p>
-            <p>Age : {props.age}</p>
-            <p>Student : {(props.isStudent) ? "Yes" : "No"}</p>
-        </div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>IsStudent?</th>
+            </tr>
+            {data}
+        </table>
+    )
+}
+
+
+const data = () => {
+    return (
+        <Details />
     )
 
 }

@@ -1,25 +1,42 @@
 // import React from "react";
-import propsType from "prop-types"
+// import propsType from "prop-types";
+import employeeData from "./../data/employeeDetails"
 
-const employeeDetails = (props) =>{
+const employeeDetails = () => {
+  const details = employeeData.map((item) => {
     return (
-        <div>
-            <p>Id : {props.id}</p>
-            <p>Name : {props.name}</p>
-            <p>Salary : {props.salary}</p>
-        </div>
-    )
-}
+      <tr>
+        <td>{item.id}</td>
+        <td>{item.name}</td>
+        <td>{item.salary}</td>
+      </tr>
+    );
+  });
 
-employeeDetails.propsType = {
-    id : propsType.number,
-    name : propsType.string,
-    salary : propsType.number,
-}
+  return (
+    <div>
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>NAME</th>
+          <th>SALARY</th>
+        </tr>
+        {details}
+      </table>
+    </div>
+  );
+};
 
-employeeDetails.defaultProps = {
-    id : 100,
-    name : 'Guest',
-    salary : '0'
-}
+
+// employeeDetails.propsType = {
+//   id: propsType.number,
+//   name: propsType.string,
+//   salary: propsType.number,
+// };
+
+// employeeDetails.defaultProps = {
+//   id: 100,
+//   name: "Guest",
+//   salary: "0",
+// };
 export default employeeDetails;

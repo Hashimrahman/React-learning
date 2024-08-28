@@ -5,9 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 20px;
+  
 }
 
 code {
@@ -23,4 +22,23 @@ code {
 
 .studentData p{
   margin: 0;
+}
+
+.cars{
+  border: 1px solid black;
+  margin: 10px;
+}
+th,tr,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr{
+  height: 50px;
+  /* width: 400px; */
+}
+table{
+  border: 1px solid black;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
 }
