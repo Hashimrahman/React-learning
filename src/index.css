@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -41,4 +43,28 @@ table{
   margin-bottom: 20px;
   width: 100%;
   padding: 10px;
+}
+
+.counter{
+  width: 100%;
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+}
+
+
+.buttonClass{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: aqua; */
+}
+
+button{
+  height: auto;
+  padding: 20px;
+  background-color: bisque;
+  border: none;
+  font-size: large;
+  border-radius: 5px;
 }
