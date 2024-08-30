@@ -7,10 +7,14 @@
 // import EmployeeDetails from './components/Employee';
 // import Cars from './components/Cars';
 // import Counter from './components/Counter'
-import List from './components/list'
-import VegetableList from './data/vegetable'
-import FruitsList from './data/fruits'
-
+// import List from './components/list'
+// import VegetableList from './data/vegetable'
+// import FruitsList from './data/fruits'
+// import BgChange from "./components/bg";
+// import DarkMode from "./components/DarkMode";
+// import Userefer from "./components/ButtonMap";
+// import RealTimeChange from "./components/Onchange";
+import ColorPicker from "./components/ColorPicker";
 
 function App() {
   return (
@@ -29,10 +33,17 @@ function App() {
       <Student /> */}
       {/* <Counter /> */}
 
-      <>
+      {/* <>
         <List items={VegetableList} category="Vegetable"/>
         <List items={FruitsList} category="Fruits"/>
-      </>
+      </> */}
+      {/* <BgChange /> */}
+      {/* <DarkMode /> */}
+      {/* <Userefer /> */}
+      {/* <RealTimeChange /> */}
+      <ColorPicker />
+
+
     </div>
   );
 }
