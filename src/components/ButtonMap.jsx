@@ -11,7 +11,7 @@ const Userefer = () => {
 
   const decrement = () => {
     if (btnId > 0) {
-      setId(btnId-1);
+      setId(btnId - 1);
     } else {
       setId(2);
     }
@@ -26,15 +26,22 @@ const Userefer = () => {
     }
     setView(elements[btnId]);
     console.log(btnId);
-    
   };
 
   return (
-    <div style={{height:'100vh', width:'100%', display:'flex', alignItems:'center', justifyContent:'center'}}>
+    <div
+      style={{
+        height: "100vh",
+        width: "100%",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <div>
-      {view}
-      <button onClick={decrement}>Previous</button>
-      <button onClick={increment}>Next</button>
+        {view}
+        <button onClick={decrement}>Previous</button>
+        <button onClick={increment}>Next</button>
       </div>
     </div>
   );

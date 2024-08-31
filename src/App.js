@@ -13,8 +13,12 @@
 // import BgChange from "./components/bg";
 // import DarkMode from "./components/DarkMode";
 // import Userefer from "./components/ButtonMap";
-// import RealTimeChange from "./components/Onchange";
-import ColorPicker from "./components/ColorPicker";
+import RealTimeChange from "./components/Onchange";
+// import ColorPicker from "./components/ColorPicker";
+// import ObjectUpdate from "./components/ObjectUpdate";
+// import Food from "./components/ArrayUpdate";
+// import Input from "./components/useRef";
+// import UpdateArrayOfObject from "./components/ArrayofObject";
 
 function App() {
   return (
@@ -33,16 +37,19 @@ function App() {
       <Student /> */}
       {/* <Counter /> */}
 
-      {/* <>
-        <List items={VegetableList} category="Vegetable"/>
-        <List items={FruitsList} category="Fruits"/>
-      </> */}
+      <>
+        {/* <List items={VegetableList} category="Vegetable"/>
+        <List items={FruitsList} category="Fruits"/> */}
+      </>
       {/* <BgChange /> */}
       {/* <DarkMode /> */}
       {/* <Userefer /> */}
-      {/* <RealTimeChange /> */}
-      <ColorPicker />
-
+      <RealTimeChange />
+      {/* <ColorPicker /> */}
+      {/* <ObjectUpdate /> */}
+      {/* <Food /> */}
+      {/* <Input /> */}
+      {/* <UpdateArrayOfObject /> */}
 
     </div>
   );

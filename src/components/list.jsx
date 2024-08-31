@@ -4,6 +4,7 @@ const List = (props) => {
     <>
       <li key={item.id}>
         {item.name} :&nbsp; <b>{item.calorie}</b>
+        <button>Hi</button>
       </li>
     </>
   ));
