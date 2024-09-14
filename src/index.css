@@ -115,3 +115,9 @@ input:focus, input:active{
   border: 2px solid rgb(255, 255, 255);
   background-color: #fc8f00;
 }
+
+
+.box{
+  border : 3px solid rgb(255, 255, 255);
+  padding: 30px;
+}

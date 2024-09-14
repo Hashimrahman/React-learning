@@ -13,12 +13,22 @@
 // import BgChange from "./components/bg";
 // import DarkMode from "./components/DarkMode";
 // import Userefer from "./components/ButtonMap";
-import RealTimeChange from "./components/Onchange";
+// import RealTimeChange from "./components/Onchange";
 // import ColorPicker from "./components/ColorPicker";
 // import ObjectUpdate from "./components/ObjectUpdate";
 // import Food from "./components/ArrayUpdate";
-// import Input from "./components/useRef";
+import Input from "./components/useRef";
 // import UpdateArrayOfObject from "./components/ArrayofObject";
+// import PropExample from "./components/Props";
+import StopWatch from "./components/StopWatch";
+import ComponentA from "./components/ComponentA";
+import Parent from "./components/useCallBack/Parent";
+import UseReducerCounter3 from "./components/UseReduceCounter3";
+import UseReducerCounter from "./components/UseReducerCounter";
+import UseReducerCounter2 from "./components/UseReducerCounter2";
+import CounterOne from "./customhooks/CounterOne";
+import CounterTwo from "./customhooks/CounterTwo";
+// import Parent from './components/memo/Parent'
 
 function App() {
   return (
@@ -44,12 +54,21 @@ function App() {
       {/* <BgChange /> */}
       {/* <DarkMode /> */}
       {/* <Userefer /> */}
-      <RealTimeChange />
+      {/* <RealTimeChange /> */}
       {/* <ColorPicker /> */}
       {/* <ObjectUpdate /> */}
       {/* <Food /> */}
       {/* <Input /> */}
       {/* <UpdateArrayOfObject /> */}
+      {/* <PropExample props = {2}/> */}
+      <StopWatch />
+      {/* <UseReducerCounter2 /> */}
+      {/* <UseReducerCounter3 /> */}
+      {/* <ComponentA /> */}
+      {/* <Parent /> */}
+      {/* <Parent /> */}
+      {/* <CounterOne />
+      <CounterTwo />  */}
 
     </div>
   );

@@ -16,7 +16,7 @@ const RealTimeChange = () => {
 
   return (
     <div>
-      <input id="input" type="text" value={name2} onChange={nameUpdate2}/>
+      <input id="input" type="text" onChange={nameUpdate2}/>
       <p>
         <b>Name : {name}  </b><br />
         <b>Name : {name2}</b>
